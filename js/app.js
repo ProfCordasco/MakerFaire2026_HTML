@@ -5,7 +5,7 @@ const session_Id = localStorage.getItem("session_id");
 const nome_utente = localStorage.getItem("nome_utente");
 
 if(!utenteLoggato || !session_Id){
-    window.location.href = "./MakerFaire2026_HTML/login.html";
+    window.location.href = "login.html";
 }
 else {
     document.getElementById("nome_utente").innerHTML = nome_utente;
@@ -51,7 +51,7 @@ function logout() {
         localStorage.removeItem("nome_utente");
   
         // Redirect login
-        window.location.href = "./login.html";
+        window.location.href = "login.html";
   
       })
       .catch(function(errore) {
@@ -65,7 +65,7 @@ function logout() {
         localStorage.removeItem("session_id");
         localStorage.removeItem("nome_utente");
   
-        window.location.href = "./login.html";
+        window.location.href = "login.html";
   
       });
   
