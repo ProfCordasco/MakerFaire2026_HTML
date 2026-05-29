@@ -37,7 +37,7 @@ function effettuaLogin(){
             localStorage.setItem("session_id", risposta.data.session_id);
             localStorage.setItem("nome_utente", risposta.data.nome);
 
-            window.location.href = "../dashboard.html";
+            window.location.href = "dashboard.html";
         }
         else{
             mostraErrore(risposta.message);
