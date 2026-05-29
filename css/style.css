@@ -1,8 +1,12 @@
 .sidebar {
-    min-height: calc(100vh - 56px);
-    background-color:#F0867D;
-}
-
+    background-color: #F0867D;
+  }
+  
+  @media (min-width: 992px) {
+    .sidebar {
+      min-height: calc(100vh - 56px);
+    }
+  }
 .sidebar .nav-link {
     margin-bottom: 8px;
     border-radius: 8px; 
