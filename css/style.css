@@ -1,0 +1,47 @@
+.sidebar {
+    min-height: calc(100vh - 56px);
+    background-color:#F0867D;
+}
+
+.sidebar .nav-link {
+    margin-bottom: 8px;
+    border-radius: 8px; 
+    transition: 0.2s;
+    color: white;
+}
+
+.nav-link.active {
+    background-color: #F0867D;
+    color: white;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+  background-color: #b24131;
+  color: white;
+}
+
+.badge-libera {
+    color: green;
+}
+
+.badge-occupata {
+    color: red;
+}
+
+.cuccia-badge {
+    font-size: larger;
+}
+
+#mappa-cuccia {
+    height: 300px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+#mappa-selezione {
+    height: 300px;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid #dee2e6
+}
