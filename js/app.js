@@ -5,7 +5,7 @@ const session_Id = localStorage.getItem("session_id");
 const nome_utente = localStorage.getItem("nome_utente");
 
 if(!utenteLoggato || !session_Id){
-    window.location.href = "../login.html";
+    window.location.href = "../MakerFaire2026_HTML/login.html";
 }
 else {
     document.getElementById("nome_utente").innerHTML = nome_utente;
